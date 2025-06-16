@@ -4,47 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>최요한의 홈페이지</title>
-  <link rel="stylesheet" href="./css/mystyle.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/home.css">
   <style> </style>
 </head>
 <body>
-  <svg height="120" width="100%">
-    <!-- <defs> 요소는 그래픽 객체를 정의, <def> 요소 내에서 만든 객체는 출력되는 것은 아님
-         나중에 사용하려면 fill 속성에 참조 연결하거나 <use> 요소를 이용해야함 
-         <def> 요소 내에 선형그레디언트 정의 -->
-    <defs>
-      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
-        <stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
-    <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">최요한의 홈페이지</text>
-    Sorry, your browser does not support inline SVG.
-  </svg>
-    
-  <ul>
-    <li><a class="active" href="https://kanzi05.github.io/25web/">Home</a></li>
-    <li><a href="./html/resume.html">온라인이력서</a></li>
-    <li><a href="./html/ulife.html">대학생활</a></li>
-    <li><a href="./html/portfolio.html">포트폴리오</a></li>
-    <li class="dropdown">
-      <a href="#" class="dropbtn">Dropdown</a>
-      <div class="dropdown-content" >
-        <a href="http://www.google.com">구글</a>
-        <a href="http://www.youtube.com">유튜브</a>
-        <a href="http://www.naver.com">네이버</a>
-      </div>
-    </li>
-  </ul>
-
-  <div>
-    <h1 >환영합니다.</h1>
-    <img src="./image/cwu.jpg" alt="청운대학교 사진">
+  <div class="background"></div>
+  <div class="mainbox">
+    안녕하세요, 저의 이름은 최요한 입니다. <br> 
+    이 사이트는 제가 재미있게 했던 게임들을 소개하기 위해 만들어졌습니다. <br>
+    저는 지금까지 여러가지 장르의 수많은 게임을 하면서 대부분은 적당히 즐겼지만 <br>
+    특정 게임들은 저와 엄청나게 잘 맞아서 수백시간 넘게 쏟아붓거나 <br>
+    몇십시간 밖에 안했지만 처음 게임을 시작하던 때부터 게임의 끝을 볼때까지의 <br>
+    과정이 아직도 생생하게 떠오르는 등 매우 인상 깊게 했습니다. <br>
+    그래서 제가 했던 게임들을 장르별로 나눴을때 특정 장르에서 제가 가장 <br>
+    재미있게 했던 게임들중 하나를 골라 대표로서 소개하고자 합니다. <br>
+    <div class="table">
+      <table>
+        <tr>
+          <td class="detail">제목</td>
+          <td>장르</td>
+          <td>별점</td>
+        </tr>
+        <tr>
+          <td><a href="./BTD6.html" class="page">Bloons TD 6</a></td>
+          <td>타워 디펜스</td>
+          <td>★★★★</td>
+        </tr>
+        <tr>
+          <td><a href="./Satisfactory.html" class="page">Satisfactory</a></td>
+          <td>건설 및 경영</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td><a href="./BabaIsYou.html" class="page">Baba Is You</a></td>
+          <td>퍼즐</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td><a href="./DEATHLOOP.html" class="page">DEATHLOOP</a></td>
+          <td>FPS 어드벤쳐</td>
+          <td>★★★★☆</td>
+        </tr>   
+      </table>
+    </div>
+    이렇게 4개의 게임을 선정했습니다. <br>
+    게임에 대한 별점은 저의 개인적인 의견입니다. <br>
+    제목 혹은 상단 바를 누르시면 그 게임의 소개 페이지로 갈 수 있습니다.
   </div>
-  <h1 >최요한의 홈페이지는 여러분이 발전할 수 있도록 돕고 싶습니다. </h1>
-  <p> 감사합니다. </p>
-   
-   
+  <div>
+    <ul>
+      <li><a href="https://kanzi05.github.io/25web/">Home</a></li>
+      <li><a href="./html/BTD6.html">Bloons TD 6</a></li>
+      <li><a href="./html/Satisfactory.html">Satisfactory</a></li>
+      <li><a href="./html/BabaIsYou.html">Baba Is You</a></li>
+      <li><a href="./html/DEATHLOOP.html">DEATHLOOP</a></li>
+    </ul>
+  </div>
 </body>
 </html>
