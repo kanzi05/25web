@@ -1,0 +1,139 @@
+.background{
+  background-image: url('../image/satisfactory/satisfactoryback.jpg');
+  opacity: 0.7;
+  filter: blur(3px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul{
+  background-color: #fa9549;
+  border: 3px solid #333333;
+}
+
+li a:hover{
+  background-color: #fda968;
+}
+
+.mainbox{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -48%);
+  width: 90%;
+  height: 80%;
+  min-width : 1500px;
+  min-height : 735px;
+  padding: 20px;
+  z-index: 2;
+  background-color: #333333;
+  border: 3px solid #fa9549;
+  display: flex;
+  justify-content: center;    
+  align-items: center;
+}
+
+.table{
+  width: 20%;
+  height: auto;
+  transform: translate(0, -29%);
+}
+
+table{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #fa9549;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  overflow-x: auto;
+  text-align: center;
+  padding: 0;
+}
+
+.title{
+  background-color: #fa9549;
+  color: #000000;
+  padding: 5px;
+  font-size: 30px;
+}
+
+td{
+  border: 3px solid #fa9549;
+  padding: 10px;
+  color: #ffffff;
+  line-height: 150%;
+}
+
+th > .mainimage{
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+
+.detail{
+  background-color: #fa9549;
+  color: #000000;
+}
+
+.page{
+   color: #ffffff;
+}
+
+.page:hover {
+  color : #000000;
+}
+
+.content{
+  width: 35%;
+  height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 180%;
+}
+
+.line{
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 25px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.extra{
+  width: 45%;
+  height: 100%;
+  outline-style: solid;
+  outline-color:#fa9549;
+}
+
+.extraline{
+  width: 90%;
+  padding: 10px 0px;
+  margin: 10px 20px 20px 20px;
+  font-size: 25px;
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
+}
+
+.photos{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.photos > img{
+  margin-left: 18px;
+  margin-bottom: 18px;
+  width: 45%;
+  height: 25%;
+}
+
+iframe{
+  margin-left: 18px;
+  margin-bottom: 18px;
+  width: 45%;
+  height: 25%;
+}
